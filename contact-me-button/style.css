@@ -1,0 +1,51 @@
+/*
+MY COLOR PALETTE
+Color 1 - #4c061d
+Color 2 - #26677d
+Color 3 - #d1603d
+Color 4 - #eeebd3
+Color 5 - #7faa74
+*/
+
+body {
+    background-color:#eeebd3; 
+    text-align: center
+    
+}
+
+h1 { 
+ font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    color:#26677d; 
+    font-size:60px;
+    text-align:center
+}
+
+h2{   
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    color: #4c061d;
+    text-align:center
+
+}
+
+button {
+    background-color:#d1603d;
+    color:white;
+    border: none;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    width: 200px;
+    padding: 20px;
+    margin: 25px;
+        border-radius: 7px
+}
+
+button:hover{ 
+background-color:#4c061d;
+    color: #7faa74;
+    
+}
