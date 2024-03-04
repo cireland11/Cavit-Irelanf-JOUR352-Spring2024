@@ -1,4 +1,26 @@
+/*
+Color Pallette
+beige - #d859
+
+
+*/
+
 img {
-   width:100px;
+    width: 100px;
+    border: solid 8px;
+    color: #d859;
+}
+
+button {
+     background-color:#d1603d;
+    color:white;
+    border: none;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    width: 200px;
+    padding: 20px;
+    margin: 25px;
+        border-radius: 7px
     
 }
