@@ -1,16 +1,18 @@
 /*
 Color Pallette
 beige - #d859
+blue - #7ea8be
 
 
 */
-
-img {
-    width: 100px;
+@media{
+img { 
+    width: 200px;
     border: solid 8px;
     color: #d859;
+   
 }
-
+    
 button {
      background-color:#d1603d;
     color:white;
@@ -20,7 +22,64 @@ button {
   font-style: normal;
     width: 200px;
     padding: 20px;
-    margin: 25px;
-        border-radius: 7px
+    margin: 20px;
+        border-radius: 7px;
+    
+}
+
+h1 {
+    padding: 5px 40px 5px 0px; font-size: 50px
+}
+
+h2{padding: 5px 40px 20px 25px; }
+
+h3{
+    padding: 30px 25px 5px 5px;
+    font-size: 25px
+}
+h4{ padding: 30px 25px 5px 5px;
+        font-size: 25px
+}
+h5{
+     padding: 30px 25px 5px 5px;
+    font-size: 25px
+}
+ 
+   }
+#navigation{;
+    padding: 10px 10px 10px 10px;
+    background-color: #7ea8be; {text-align: center}
+        
+}
+#skills:hover{
+    text-decoration: underline;
+    text-align: center
+
+    
+}
+#skills{
+    text-align: center
+}
+#exp{
+    text-align: center
+}
+#exp:hover{
+    text-decoration: underline;
+    
+}
+#edu{
+    text-align: center
+}
+#edu:hover{
+    text-decoration: underline;
+    
+}
+#contact{
+    
+}
+    
+@media (min-width:576px){ h1{
+    font-size: 30px;}
+}
     
 }
