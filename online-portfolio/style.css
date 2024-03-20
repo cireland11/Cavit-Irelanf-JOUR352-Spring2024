@@ -46,36 +46,50 @@ h5{
 }
  
    }
-#navigation{;
+#nav{;
     padding: 10px 10px 10px 10px;
     background-color: #7ea8be; {text-align: center}
         
 }
-#skills:hover{
+#skillsnav:hover{
     text-decoration: underline;
     text-align: center
 
     
 }
-#skills{
+#skillsnav{
     text-align: center
 }
-#exp{
+#expnav{
     text-align: center
 }
-#exp:hover{
+#expnav:hover{
     text-decoration: underline;
     
 }
-#edu{
+#edunav{
     text-align: center
 }
-#edu:hover{
+#edunav:hover{
     text-decoration: underline;
     
 }
 #contact{
     
+}
+
+#adobe{font-weight: bold;
+    
+}
+#tech{
+    font-weight: bold
+}
+#jobtitle{
+    font-weight: bold; text-decoration: underline;
+}
+#umd{font-weight: bold; text-decoration: underline;
+    
+}
 }
     
 @media (min-width:576px){ h1{
