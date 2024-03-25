@@ -1,0 +1,35 @@
+@media{
+
+img {
+    width: 300px;
+    float: left; padding-right: 10px
+ 
+}
+
+body {
+    
+font-family: Arial, san-serif
+}
+
+#contact {
+    font-weight: bold; font-size: 20px
+}
+    #footer{
+        position: fixed; bottom: 0px
+        
+    }
+#info {
+    width: 700px;
+     margin:auto
+}
+    @media (min-width: 576px)
+        #info { width: 700px
+            
+            
+    }
+        
+    
+        
+        
+    
+}
