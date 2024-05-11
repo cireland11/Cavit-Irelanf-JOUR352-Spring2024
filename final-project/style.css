@@ -1,50 +1,63 @@
 @media {
+    img {
+        width: 100%;
+    }
 
-img {width: 100%;
-    
-    
-}
+    #topper {
+        /*background-image: url(ted.leonsis.jpeg); background-size: cover;*/
+        background-color: #20171c;
+    }
+    body {
+        background-color: #bc9396;
+    }
+    h1 {
+        background-color: #20171c;
+        padding: 15px 10px 15px 10px;
+        color: aliceblue;
+        font-family: "Yeseva One", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 
-#topper{/*background-image: url(ted.leonsis.jpeg); background-size: cover;*/
-    background-color:#BC9396
-    
-    
-}
-    body{background-color:#20171C; }
-h1 {background-color: #20171C; padding: 15px 10px 15px 10px;
-    color: aliceblue; font-family: "Yeseva One", serif;
-  font-weight: 400;
-  font-style: normal;
-   
-}
-
-.caption{font-family: "Yeseva One", serif;
-  font-weight: 20;
-  font-style: normal;
-}
-#hifive {font-size: 80%
-    
-    
-}
+    .caption {
+        font-family: "Yeseva One", serif;
+        font-weight: 20;
+        font-style: normal;
+        color:aliceblue
+    }
+    #hifive {
+        font-size: 80%;
+    }
     .bodyparagraph {
-  font-family: "Yeseva One", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-        font-style: normal;}
-    .pullquote {font-size: 40px;border-left: 3px solid #6b6e9f; font-family: "Crimson Text", serif;
-  font-weight: 400;
-  font-style: normal;
+        font-family: "Yeseva One", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    .pullquote {
+        font-size: 40px;
+        border-left: 3px solid #6b6e9f;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .quotemark {
+        font-size: 120px;
+        line-height: 50px;
+    }
+    #content {
+        width: 60%; 
+        margin: auto;
         
-}
-    .quotemark{font-size:120px;;line-height:50px}   
-    }   
-a{ }
-    
+        
+        
+    }
 }
 
 @media (min-width: 576px) {
-    #content {width:80%}
-    
-    
-    
+    #content {
+        width: 80%;
+        margin: auto;
+        
+    }
 }
