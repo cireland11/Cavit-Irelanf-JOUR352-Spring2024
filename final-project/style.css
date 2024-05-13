@@ -8,7 +8,7 @@
         background-color: #20171c;
     }
     body {
-        background-color: #bc9396;
+        background-color: mintcream;font-size: large;
     }
     h1 {
         background-color: #20171c;
@@ -23,7 +23,15 @@
         font-family: "Yeseva One", serif;
         font-weight: 20;
         font-style: normal;
-        color:aliceblue
+        color: aliceblue;
+        font-size: 80%;
+    }
+    .bodycaption {
+        font-family: "Yeseva One", serif;
+        font-weight: 20;
+        font-style: normal;
+        color: black;
+        font-size: small;
     }
     #hifive {
         font-size: 80%;
@@ -31,8 +39,23 @@
     .bodyparagraph {
         font-family: "Yeseva One", serif;
         font-optical-sizing: auto;
-        font-weight: <weight>;
+        font-weight: normal;
         font-style: normal;
+        padding: 10px;
+    }
+    .subheader{
+         font-family: "Yeseva One", serif;
+        font-size: 200%;
+        font-weight: bold;
+        font-style: normal;
+        padding: 10px;
+    }
+    .footer {
+        font-family: "Yeseva One", serif;
+        font-optical-sizing: auto;
+        font-weight: lighter;
+        font-style: normal;
+        padding: 10px;
     }
     .pullquote {
         font-size: 40px;
@@ -40,17 +63,41 @@
         font-family: "Crimson Text", serif;
         font-weight: 400;
         font-style: normal;
+        color: azure;
+        padding: 10px 10px 5px 5px;
+    }
+    .pullquote2 {
+        font-size: 40px;
+        border-left: 3px solid #6b6e9f;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: navy;
+        padding: 10px 10px 5px 5px;
     }
     .quotemark {
         font-size: 120px;
         line-height: 50px;
     }
     #content {
-        width: 60%; 
+        width: 60%;
         margin: auto;
-        
-        
-        
+    }
+    .flourish-embed flourish-chart {
+        width: 70%;
+    }
+    #vidcap {
+        align-items: center;
+        font-family: "Yeseva One", serif;
+        font-weight: 40;
+        font-style: normal;
+        font-size: 150%;
+        float: inherit;
+        color: maroon;
+    }
+    #video {
+        float: right;
+        padding: 5px;
     }
 }
 
@@ -58,6 +105,5 @@
     #content {
         width: 80%;
         margin: auto;
-        
     }
 }
